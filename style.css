@@ -1,0 +1,58 @@
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration:none;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+
+.textview {
+
+}
+
+form {
+  
+ 
+}
+
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 25px;
+  padding-left: 40px;
+}
+
+input[type=text]:focus {
+  border: 1px solid lightblue;
+  border-radius: 25px;
+  box-shadow: 2px;
+}
+
+input[type="submit"] {
+  margin-right: 20px;
+  opacity: 0.5;
+  border: none;
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 3px;
+}
